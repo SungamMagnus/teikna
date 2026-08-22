@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mango/Downloads/Plotter/build/cmake_install.cmake",
+		"/Users/mango/Downloads/Plotter/build/JUCE/cmake_install.cmake",
+		"/Users/mango/Downloads/Plotter/build/JUCE/modules/cmake_install.cmake",
+		"/Users/mango/Downloads/Plotter/build/JUCE/extras/Build/cmake_install.cmake",
+		"/Users/mango/Downloads/Plotter/build/JUCE/extras/Build/juceaide/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

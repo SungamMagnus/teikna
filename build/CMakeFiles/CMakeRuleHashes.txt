@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+76ded172060cae51d00a4a65633d4b00 CMakeFiles/Plotter_vst3_helper
+cfdb1b64f95b75178603fab18032674f Plotter_artefacts/JuceLibraryCode/Plotter_AU/PkgInfo
+b405442062b77bbd2f8b1a8e85d5c75a Plotter_artefacts/JuceLibraryCode/Plotter_Standalone/PkgInfo
+55808ec73f5dd2f3c753b706d2445db5 Plotter_artefacts/JuceLibraryCode/Plotter_VST3/PkgInfo

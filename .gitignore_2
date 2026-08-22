@@ -1,0 +1,23 @@
+# build output
+build/
+cmake-build-*/
+*_artefacts/
+
+# JUCE
+JuceLibraryCode/
+JUCE/
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Xcode / VS
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+.vs/
+*.user
+
+# editors
+.vscode/ipch/
+*.swp
