@@ -1,4 +1,4 @@
-# Plotter — a drawing sequencer as a JUCE plugin
+# Teikna — a drawing sequencer as a JUCE plugin
 
 Draw a picture; the host transport reads it left to right. Vertical position is pitch,
 horizontal position is time, ink coverage is velocity.
@@ -19,9 +19,9 @@ So this is built as `IS_SYNTH TRUE` + `NEEDS_MIDI_OUTPUT TRUE`. It loads as an i
 it has a small built-in voice so it makes sound on its own, and it emits MIDI that other
 tracks can pick up.
 
-**Routing it in Live:** drop Plotter on a MIDI track. On a second MIDI track, set
-*MIDI From* → the Plotter track → *Plotter*, and *Monitor* to **In**. Put your real
-instrument there. Turn off Plotter's built-in **Voice** toggle once you're monitoring the
+**Routing it in Live:** drop Teikna on a MIDI track. On a second MIDI track, set
+*MIDI From* → the Teikna track → *Teikna*, and *Monitor* to **In**. Put your real
+instrument there. Turn off Teikna's built-in **Voice** toggle once you're monitoring the
 other track. If routing gives you trouble, the **Drag MIDI** button drags a clip of the
 current picture straight into the session — often the faster path.
 

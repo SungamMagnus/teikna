@@ -131,7 +131,7 @@ void PlotterEditor::paint (juce::Graphics& g)
 
     g.setColour (blueColour);
     g.setFont (juce::FontOptions (26.0f).withStyle ("Bold"));
-    g.drawText ("PLOTTER", 16, 10, 200, 30, juce::Justification::left);
+    g.drawText ("TEIKNA", 16, 10, 200, 30, juce::Justification::left);
 
     g.setColour (inkColour.withAlpha (0.55f));
     g.setFont (juce::FontOptions (12.0f));
@@ -189,7 +189,7 @@ void PlotterEditor::resized()
 juce::File PlotterEditor::writeMidiToTempFile() const
 {
     auto file = juce::File::getSpecialLocation (juce::File::tempDirectory)
-                    .getChildFile ("plotter-drag.mid");
+                    .getChildFile ("teikna-drag.mid");
 
     juce::MidiFile midiFile;
     const int ticksPerQuarter = 960;
@@ -228,7 +228,7 @@ juce::File PlotterEditor::writeMidiToTempFile() const
 void PlotterEditor::exportMidi()
 {
     const auto rs = processor.readSettings();
-    const auto name = "plotter_" + noteNames()[rs.root].replace ("#", "s")
+    const auto name = "teikna_" + noteNames()[rs.root].replace ("#", "s")
                     + "-" + juce::String (scales()[(size_t) rs.scaleIndex].name).removeCharacters (" .#-")
                     + ".mid";
 
