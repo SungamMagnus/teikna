@@ -3,6 +3,8 @@
 Draw a picture; the host transport reads it left to right. Vertical position is pitch,
 horizontal position is time, ink coverage is velocity.
 
+![Teikna panel](docs/panel.png)
+
 Verified: builds clean against **JUCE 9.0.1** with `juce_recommended_warning_flags`, and
 passes **pluginval strictness 5** (editor, state, automation, audio processing at
 44.1/48/96 kHz across block sizes 64–1024).
