@@ -5,6 +5,9 @@ horizontal position is time, ink coverage is velocity.
 
 ![Teikna panel](docs/panel.png)
 
+**[Try it in the browser](https://sungam.art/WebApps/teikna-web.html)** — the same
+drawing surface, no plugin host required.
+
 Verified: builds clean against **JUCE 9.0.1** with `juce_recommended_warning_flags`, and
 passes **pluginval strictness 5** (editor, state, automation, audio processing at
 44.1/48/96 kHz across block sizes 64–1024).
